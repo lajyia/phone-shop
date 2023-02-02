@@ -1,0 +1,28 @@
+.modal{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 100;
+}
+.modal__container{
+    margin: auto 0px;
+    padding: 40px 25px;
+    background: #fff;
+    border-radius: 16px;
+}
+@media (max-width: 390px){
+    .modal__container{
+        padding: 30px 5px;
+    }
+}
+
+.modal.active{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: auto;
+}

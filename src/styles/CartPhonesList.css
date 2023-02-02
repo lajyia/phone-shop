@@ -1,0 +1,47 @@
+.cart-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart-list__container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.cart-list__body-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cart-list__title-total{
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-right: 10px;
+}
+.cart-list__total{
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.sad-face{
+    width: 100px;
+    height: 100px;
+}
+.modal-active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.modal-active__title{
+    text-transform: uppercase;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.cart-list__info-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

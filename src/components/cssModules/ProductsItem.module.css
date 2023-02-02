@@ -1,0 +1,31 @@
+.item__image {
+    opacity: 1;
+}
+.item__image.active{
+    opacity: 0.3;
+}
+
+
+.item__ended_title{
+    position: absolute;
+    z-index: 50;
+    color: rgb(252, 8, 8);
+    font-size: 70px;
+    font-weight: 900;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    letter-spacing: 10px;
+    top: 48%;
+    transform: translate(-50%, -50%) rotate(-50deg);
+    left: 54%;
+    display: none;
+}
+@media (max-width: 920px){
+    .item__ended_title{
+        left: 50%;
+        font-size: 60px;
+        letter-spacing: 5px;
+    }
+}
+.item__ended_title.active{
+    display: block;
+}
