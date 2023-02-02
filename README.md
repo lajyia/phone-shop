@@ -1,6 +1,6 @@
 ####### Phone-shop
 
-npm install
-npm start
+  1. npm install
+  2. npm start
 
 react(+react-router-dom) + redux
