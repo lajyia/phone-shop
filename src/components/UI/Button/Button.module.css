@@ -10,6 +10,9 @@
 .button:hover{
     color: #fff;
     background: rgb(184, 172, 172);
-    border-radius: 16px;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 3px 3px 3px grey;
+}
+.button:active{
+    color: red;
+    box-shadow: 3px 3px 3px red;
 }

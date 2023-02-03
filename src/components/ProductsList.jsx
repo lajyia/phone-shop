@@ -1,12 +1,8 @@
-import React,{useState} from 'react';
+import React from 'react';
 import ProductsItem from './ProductsItem';
 import '../styles/ProductsList.css';
-import Select from './UI/Select/Select';
 
 const ProductsList = ({ phones, add }) => {
-
-    const [sorted, setSorted] = useState({ sort: '', exists: false });
-
 
     if (phones.length == 0) {
         return (
@@ -17,10 +13,12 @@ const ProductsList = ({ phones, add }) => {
     return (
         <div className="list">
             <div className="list__container">
-                <Select defaultValue='sorted' onChange={setSorted} value={sorted.sort} options={[{ name: "by price", value: "price" }, { name: "by exists", value: 'exists' }]} />
-                {phones.map(phone =>
-                    <ProductsItem add={add} key={phone.id} item={phone} />
-                )}
+                <div className="list__body">
+                    {phones.map(phone =>
+                        <ProductsItem add={add} key={phone.id} item={phone} />
+                    )}
+                </div>
+
             </div>
 
         </div>

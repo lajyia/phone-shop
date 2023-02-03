@@ -23,6 +23,10 @@ function App() {
       element: <Navigate to="/products"/>,
       errorElement: <div><Header/><Error/></div>
     },
+    {
+      path: '/phone-shop',
+      element: <Navigate to="/products"/>,
+    },
   ])
 
   return (
