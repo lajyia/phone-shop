@@ -7,6 +7,7 @@ import Button from './UI/Button/Button';
 import { useDispatch } from 'react-redux';
 import { clearPhoneAction } from '../store/existsReducer';
 import { nullBasketAction } from '../store/basketReducer';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 const CartPhonesList = ({ phones, title, remove, removeAll }) => {
 
@@ -33,9 +34,14 @@ const CartPhonesList = ({ phones, title, remove, removeAll }) => {
         <div className="cart-list">
             <h1 className="products__order-title">{title}</h1>
             <div className="cart-list__container">
-                {phones.map(phone =>
-                    <CartPhonesItem remove={remove} key={phone.id} phone={phone} />
-                )}
+                <TransitionGroup>
+                    {phones.map(phone =>
+                        <CSSTransition key={phone.id} timeout={500} classNames="item-cart">
+                            <CartPhonesItem remove={remove}  phone={phone} />
+                        </CSSTransition>
+                    )}
+                </TransitionGroup>
+
                 <div className="cart-list__body-total">
                     <Button onClick={clearAll}>CLEAR ALL</Button>
                     <div className="cart-list__info-cart">

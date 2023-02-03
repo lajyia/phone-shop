@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/phone-shop/static/css/main.eaa6bd73.css",
-    "main.js": "/phone-shop/static/js/main.409b0ab5.js",
+    "main.css": "/phone-shop/static/css/main.6d57da54.css",
+    "main.js": "/phone-shop/static/js/main.6edad12d.js",
     "static/media/nokiaC20.png": "/phone-shop/static/media/nokiaC20.265e5b285353bf4a8f31.png",
     "static/media/htcWildfireE3.png": "/phone-shop/static/media/htcWildfireE3.d12d7da38b7fa25b9811.png",
     "static/media/xiaomiRedmiA1.png": "/phone-shop/static/media/xiaomiRedmiA1.bc0ae295d61e8781983b.png",
@@ -14,11 +14,11 @@
     "static/media/basket.svg": "/phone-shop/static/media/basket.87b0f5bddfe0ff3b168122bd3c5c63ef.svg",
     "static/media/sad.svg": "/phone-shop/static/media/sad.cc31701a2d0e4056fa2cfa6f4c9086c1.svg",
     "index.html": "/phone-shop/index.html",
-    "main.eaa6bd73.css.map": "/phone-shop/static/css/main.eaa6bd73.css.map",
-    "main.409b0ab5.js.map": "/phone-shop/static/js/main.409b0ab5.js.map"
+    "main.6d57da54.css.map": "/phone-shop/static/css/main.6d57da54.css.map",
+    "main.6edad12d.js.map": "/phone-shop/static/js/main.6edad12d.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaa6bd73.css",
-    "static/js/main.409b0ab5.js"
+    "static/css/main.6d57da54.css",
+    "static/js/main.6edad12d.js"
   ]
 }
