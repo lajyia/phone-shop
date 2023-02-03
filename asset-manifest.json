@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/phone-shop/static/css/main.f5cbb2ef.css",
-    "main.js": "/phone-shop/static/js/main.cc5befc6.js",
+    "main.css": "/phone-shop/static/css/main.05dd9d7f.css",
+    "main.js": "/phone-shop/static/js/main.409b0ab5.js",
+    "static/media/nokiaC20.png": "/phone-shop/static/media/nokiaC20.265e5b285353bf4a8f31.png",
+    "static/media/htcWildfireE3.png": "/phone-shop/static/media/htcWildfireE3.d12d7da38b7fa25b9811.png",
+    "static/media/xiaomiRedmiA1.png": "/phone-shop/static/media/xiaomiRedmiA1.bc0ae295d61e8781983b.png",
     "static/media/vivoY35.png": "/phone-shop/static/media/vivoY35.8781bd6777545c63ccca.png",
     "static/media/samsungA03.png": "/phone-shop/static/media/samsungA03.2ce5b2019c84484ff5e1.png",
+    "static/media/infinixSmart6.png": "/phone-shop/static/media/infinixSmart6.0f3b4901ef690f21c21a.png",
+    "static/media/realmeC11.png": "/phone-shop/static/media/realmeC11.bbc9362f7912672d8836.png",
     "static/media/iphone13.png": "/phone-shop/static/media/iphone13.73119987ca8dea8086ab.png",
     "static/media/phone-error.svg": "/phone-shop/static/media/phone-error.716ed3ec87badeabcba78d4777966585.svg",
     "static/media/basket.svg": "/phone-shop/static/media/basket.87b0f5bddfe0ff3b168122bd3c5c63ef.svg",
     "static/media/sad.svg": "/phone-shop/static/media/sad.cc31701a2d0e4056fa2cfa6f4c9086c1.svg",
     "index.html": "/phone-shop/index.html",
-    "main.f5cbb2ef.css.map": "/phone-shop/static/css/main.f5cbb2ef.css.map",
-    "main.cc5befc6.js.map": "/phone-shop/static/js/main.cc5befc6.js.map"
+    "main.05dd9d7f.css.map": "/phone-shop/static/css/main.05dd9d7f.css.map",
+    "main.409b0ab5.js.map": "/phone-shop/static/js/main.409b0ab5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5cbb2ef.css",
-    "static/js/main.cc5befc6.js"
+    "static/css/main.05dd9d7f.css",
+    "static/js/main.409b0ab5.js"
   ]
 }
